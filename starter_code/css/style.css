@@ -1,0 +1,282 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
+
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Open Sans, Helvetica, Arial, sans-serif;
+     background-color: #f0efef; /*background light gray*/
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+
+footer {
+  background-color: #121212; /*almost black*/
+  margin: 0px;
+  padding-top: 20px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*** Header ***/
+
+header {
+  background-color: #033048; /*dark blue*/
+  padding: 0px 120px;
+  height: 100px;
+}
+
+header h1 {
+  color: white;
+  float: left;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  bottom: 10px;
+}
+
+header nav {
+  float: right;
+  font-weight: 600;
+  font-size: 24px;
+  position: relative;
+  top: 30px;
+}
+
+header ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header li {
+  float: left;
+  margin: 0px 10px;
+
+
+}
+
+header a {
+  color: #f9e42e; /*yellow*/
+}
+
+
+
+/*** article styling ***/
+
+article {
+  width: 700px;
+  border-bottom: 1px solid #606161; /*grey*/
+  margin-bottom: 50px;
+}
+article h2 {
+  color: #033048; /*dark blue*/
+  font-weight: 600;
+  font-size: 40px;
+}
+article p {
+  color: #606161; /*grey*/
+  font-weight: 300;
+  font-size: 24px;
+}
+article img {
+  width: 100%;
+}
+
+article a {
+  float: right;
+  color: #033048; /*dark blue*/
+  font-weight: 600;
+  font-size: 24px;
+}
+
+article p:first-letter {
+  float: left;
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 60px;
+  padding-bottom: 2px;
+  padding-top: 5px;
+  padding-right: 5px;
+  
+}
+/*********** aside styling *****************/
+aside {
+  width: 240px;
+  margin: auto;
+}
+
+aside img, aside section {
+  width: 240px;
+}
+
+aside h3 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+aside section {
+  margin: 25px 0px;
+  color: #033048; /*dark blue*/
+}
+
+aside a {
+  margin-top: 0px;
+  color: #033048; /*dark blue*/
+  font-weight: 600;
+  font-size: 22px;
+}
+
+aside p {
+  margin-bottom: 0px;
+  font-weight: 300;
+  font-size: 22px;
+
+}
+
+/************ SIGN UP! ******************/
+
+#signUp {
+  background-color: #f9e42e; /*yellow*/
+  height: 100px;
+  margin: 0px;
+  padding: 25px;
+}
+
+#signUp a {
+  display: block;
+  width: 250px;
+  height: 44px;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background-color: #033048; /*dark blue*/
+  border-radius: 3px;
+  padding: 5px;
+
+}
+
+/************* FOOTER ******************/
+footer h1 {
+  color: #f9e42e; /*yellow*/
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+footer div {
+  float: left;
+  width: 50%;
+
+}
+
+footer a {
+  height: 30px;
+}
+
+footer img {
+  height: inherit;
+}
+
+#twitter img {
+  float: right;
+  margin-right: 10px;
+}
+
+#facebook img {
+  margin-left: 10px;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 50px;
+
+}
